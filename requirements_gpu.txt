@@ -1,0 +1,43 @@
+# GPU Requirements with CUDA Support
+# For users with NVIDIA GPUs
+
+# Core packages (same as minimal)
+streamlit>=1.28.0
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+nltk>=3.8
+regex>=2022.7.9
+matplotlib>=3.5.0
+plotly>=5.10.0
+wordcloud>=1.9.0
+tqdm>=4.64.0
+requests>=2.28.0
+
+# PyTorch with CUDA 11.8 support
+--index-url https://download.pytorch.org/whl/cu118
+torch>=1.12.0+cu118
+torchvision>=0.13.0+cu118
+torchaudio>=0.12.0+cu118
+
+# Transformers with acceleration
+transformers>=4.21.0
+tokenizers>=0.13.0
+accelerate>=0.21.0
+
+# Additional ML libraries
+seaborn>=0.11.0
+scipy>=1.9.0
+statsmodels>=0.13.0
+
+# Performance optimization
+psutil>=5.9.0
+joblib>=1.1.0
+cachetools>=5.2.0
+
+# Enhanced visualization
+rich>=12.5.0
+openpyxl>=3.0.10
+
+# Memory management
+gc-python-utils>=1.0.0
